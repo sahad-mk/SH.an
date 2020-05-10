@@ -32,9 +32,9 @@ func missHead() {
 	hostarg := flag.String("host", "", "option -host is missing! \nuse -h/-help for Help message")
 
 	flag.Usage= func(){
-		fmt.Println("\n Usage: ./shan.go -host <http://hostname or https://hostname>\n")
-		fmt.Println("       Ex:  ./shan.go -host http://example.com \n")
-		fmt.Println("       Ex: ./shan.go -host http://example.com \n")
+		fmt.Println("\n      Usage: go run shan.go -host <http://hostname or https://hostname>\n")
+		fmt.Println("      Example:  go run shan.go -host http://example.com \n")
+		fmt.Println("                go run shan.go -host http://example.com \n")
 		}
 	flag.Parse()
 
