@@ -5,7 +5,7 @@
 
 ![SH.an](https://img.shields.io/badge/version-1.0-success)   ![go](https://img.shields.io/badge/go-v1.1-important)   ![Tested](https://img.shields.io/badge/Tested%20On-Ubuntu%2018.04-green)  [![Linkedin](https://img.shields.io/badge/Linkedin-/Sahadmk-blue)](https://www.linkedin.com/in/sahadmk)
 
-SH.an is a go script for finding missing secure headers and insecure CSP policies. If you want to add or change the Secure Headers or CSP policies,check the correspondent array or map structure in the script and make the change.
+SH.an is a go script to find missing secure headers and insecure CSP policies. If you want to add or change the Secure Headers or CSP policies, check the correspondent array or map structure in the script and make the change.
 
 ## Prerequisites
           1. Go
@@ -54,7 +54,7 @@ SH.an is a go script for finding missing secure headers and insecure CSP policie
  ➌ Insecure CSP policy
     
     
-    <img src=https://github.com/sahad-mk/SH.an/blob/master/screenshots/insecure_csp.png>
+   <img src=https://github.com/sahad-mk/SH.an/blob/master/screenshots/insecure_csp.png>
    
 
  
