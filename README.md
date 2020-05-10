@@ -22,9 +22,9 @@ SH.an is a go script to find missing secure headers and insecure CSP policies. I
           
                         go build shan.go (will create executable 'shan')
                         
-          • Then you can run the executable:
+          • Then run the executable:
           
-                            ./shan
+                           ./shan
           
           
 ## Usage
