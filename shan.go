@@ -34,7 +34,7 @@ func missHead() {
 	flag.Usage= func(){
 		fmt.Println("\n      Usage: go run shan.go -host <http://hostname or https://hostname>\n")
 		fmt.Println("      Example:  go run shan.go -host http://example.com \n")
-		fmt.Println("                go run shan.go -host http://example.com \n")
+		fmt.Println("                go run shan.go -host https://example.com \n")
 		}
 	flag.Parse()
 
